@@ -1,0 +1,90 @@
+inherited FormYapilanIsEkle: TFormYapilanIsEkle
+  Caption = 'Yap'#305'lan '#304#351' Ekle'
+  ExplicitWidth = 651
+  ExplicitHeight = 338
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel [0]
+    Left = 112
+    Top = 56
+    Width = 24
+    Height = 13
+    Caption = 'Tarih'
+    FocusControl = cxDBDateEdit1
+  end
+  object Label2: TLabel [1]
+    Left = 80
+    Top = 115
+    Width = 41
+    Height = 13
+    Caption = 'Aciklama'
+  end
+  object Label3: TLabel [2]
+    Left = 99
+    Top = 216
+    Width = 37
+    Height = 13
+    Caption = 'Durumu'
+  end
+  object cxDBDateEdit1: TcxDBDateEdit [3]
+    Left = 112
+    Top = 72
+    DataBinding.DataField = 'Tarih'
+    DataBinding.DataSource = DSYapilanMaster
+    TabOrder = 0
+    Width = 121
+  end
+  object cxDBMemo1: TcxDBMemo [4]
+    Left = 127
+    Top = 112
+    DataBinding.DataField = 'Aciklama'
+    DataBinding.DataSource = DSYapilanMaster
+    TabOrder = 1
+    Height = 89
+    Width = 185
+  end
+  object cxDBComboBox1: TcxDBComboBox [5]
+    Left = 152
+    Top = 207
+    DataBinding.DataField = 'Durumu'
+    DataBinding.DataSource = DSYapilanMaster
+    Properties.DropDownListStyle = lsEditFixedList
+    TabOrder = 2
+    Width = 121
+  end
+  object QYapilanMaster: TADOQuery
+    Connection = DM.ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select *from istakipDetay where 1=2')
+    Left = 328
+    Top = 56
+    object QYapilanMasterid: TAutoIncField
+      FieldName = 'id'
+      ReadOnly = True
+    end
+    object QYapilanMasterMasterid: TIntegerField
+      FieldName = 'Masterid'
+    end
+    object QYapilanMasterTarih: TDateTimeField
+      FieldName = 'Tarih'
+    end
+    object QYapilanMasterAciklama: TStringField
+      FieldName = 'Aciklama'
+      Size = 500
+    end
+    object QYapilanMasterDurumu: TStringField
+      FieldName = 'Durumu'
+    end
+    object QYapilanMasterSorumlu: TStringField
+      FieldName = 'Sorumlu'
+      Size = 15
+    end
+  end
+  object DSYapilanMaster: TDataSource
+    DataSet = QYapilanMaster
+    Left = 440
+    Top = 64
+  end
+end

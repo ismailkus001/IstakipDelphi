@@ -1,0 +1,20 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 395
+  Width = 472
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security In' +
+      'fo=False;User ID=KURSADHAN;Initial Catalog=istakipDB;Data Source' +
+      '=KURSADHAN'
+    Provider = 'SQLOLEDB.1'
+    Left = 264
+    Top = 216
+  end
+  object QGenel: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 304
+    Top = 120
+  end
+end

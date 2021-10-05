@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.842,=C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.268,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\isTakipSistemi\form\UnitDM.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.846,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\isTakipSistemi\form\UnitIsEkle.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.059,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\isTakipSistemi\form\UnitGenel.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.253,=C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.181,=C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.171,D:\isTakipSistemi\form\UnitYapilanIsEkle.pas=D:\isTakipSistemi\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.858,=C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.066,=C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.181,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\isTakipSistemi\form\UnitGiris.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.181,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\isTakipSistemi\form\UnitGiris.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.059,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\isTakipSistemi\form\UnitGenel.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.992,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\isTakipSistemi\form\UnitAna.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.268,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\isTakipSistemi\form\UnitDM.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.846,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\isTakipSistemi\form\UnitIsEkle.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.747,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\isTakipSistemi\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.992,C:\Users\ismai\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\isTakipSistemi\form\UnitAna.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.604,=D:\isTakipSistemi\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.171,D:\isTakipSistemi\form\UnitYapilanIsEkle.dfm=D:\isTakipSistemi\Unit1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="form"/>
+    <File Path="form\UnitAna.pas"/>
+    <File Path="form\UnitAna.dfm"/>
+    <File Path="form\UnitDM.pas"/>
+    <File Path="form\UnitDM.dfm"/>
+    <File Path="form\UnitGenel.pas"/>
+    <File Path="form\UnitGenel.dfm"/>
+    <File Path="form\UnitGiris.pas"/>
+    <File Path="form\UnitGiris.dfm"/>
+    <File Path="form\UnitIsEkle.pas"/>
+    <File Path="form\UnitIsEkle.dfm"/>
+    <File Path="form\UnitYapilanIsEkle.pas"/>
+    <File Path="form\UnitYapilanIsEkle.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
